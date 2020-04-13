@@ -7,8 +7,10 @@
 class run_motor
 {
   public:
-    motor(int motor,int speedd);
-    set(int s0,int s1,int s2,int z, int pwm_left, int pwm_right );
+    run_motor(int s0,int s1,int s2,int z,int pwm_left , int pwm_right );
+    set();
+    motor(int motor,int direction ,int speedd);
+
 
     int pool_rate = 50;
     int m1=1,m2=2,m3=3,m4=4,c_z;
