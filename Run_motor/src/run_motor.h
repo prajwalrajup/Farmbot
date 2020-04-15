@@ -13,8 +13,9 @@ class run_motor
 
 
     int pool_rate = 50;
-    int m1=1,m2=2,m3=3,m4=4,c_z;
-    int forward = 1,backward = 0;
+    int m1=1;int m2=2; int m3=3; int m4=4;int c_z;
+    int forward = 1;
+    int backward = 0;
 
   private:
     int selectPins[3];

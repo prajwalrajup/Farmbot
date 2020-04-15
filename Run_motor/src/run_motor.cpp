@@ -11,7 +11,6 @@ run_motor::run_motor(int s0,int s1,int s2,int z,int pwm_left , int pwm_right )
   c_pwm_right = pwm_right;
 }
 
-
 run_motor::set()
 {
   for (int i=0; i<3; i++)
